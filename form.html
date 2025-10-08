@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>student details form</title>
+   
+     <style>
+        .error{
+            color:red;
+            font-size:0.8rem;
+
+        }
+     </style>
+      </head>
+      <body>
+        <h1>student form</h1>
+        <form id="studentform">
+            <div>
+                <label for="username">username</label>
+                <input type ="text" id ="username" name="username">
+                <div class ="error" id ="usernameError"></div>
+            </div>
+            <div>
+                <label for ="email">email</label>
+                <input type ="tewxt" id ="email" name="email">
+                <div class ="error" id ="emailError"></div>
+            </div>
+            <div>
+                <label for ="password">password</label>
+                <input type ="password" id ="password" name="password">
+                <div class ="error" id ="passwordError"></div>
+            </div>
+             <button type="submit">Register</button>
+            
+        </form>
+        <script src="form.js"></script>
+      </body>
+</html>
